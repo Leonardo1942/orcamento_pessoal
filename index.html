@@ -14,12 +14,14 @@
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
+    <script src="app.js"></script>
+
 	</head>
 
   <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info mb-5">
       <div class="container">
         <a class="navbar-brand" href="#">
            <img src="logo.png" width="50" height="35" alt="Orçamento pessoal">
@@ -54,11 +56,11 @@
           <select class="form-control" id="ano">
             <option value="">Ano</option>
             <option value="2018">2018</option>
-            <option value="2018">2019</option>
-            <option value="2018">2020</option>
-            <option value="2018">2021</option>
-            <option value="2018">2022</option>
-
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            
           </select>
         </div>
 
@@ -86,12 +88,14 @@
 
         <div class="col-md-6">
           <select class="form-control" id="tipo">
-            <option>Tipo</option>
+            <option value="">Tipo</option>
             <option value="1">Alimentação</option>
             <option value="2">Educação</option>
             <option value="3">Lazer</option>
             <option value="4">Saúde</option>
             <option value="5">Transporte</option>
+            <option value="6">Cultura</option>
+            <option value="7">Extras</option>
           </select>
         </div>
       </div>
@@ -106,12 +110,31 @@
         </div>
 
         <div class="col-md-2 d-flex justify-content-end">
-          <button type="button" class="btn btn-primary">
+          <button type="button" class="btn btn-primary" onclick="cadastrarDespesa()">
             <i class="fas fa-plus"></i>
           </button>
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalRegistraDespesa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div id="modal_titulo_div">
+            <h5 class="modal-title" id="modal_titulo"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="modal_conteudo"></div>
+          <div class="modal-footer">
+            <button type="button" data-dismiss="modal" id="modal_btn">Voltar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>	
 
 </html>
