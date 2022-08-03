@@ -14,6 +14,10 @@
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JS -->
     <script src="app.js"></script>
 
 	</head>
@@ -21,10 +25,10 @@
   <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning ">
       <div class="container">
         <a class="navbar-brand" href="#">
-           <img src="logo.png" width="50" height="35" alt="Orçamento pessoal">
+           <img src="img/logo.png" width="70" height="65" alt="Orçamento pessoal">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -47,13 +51,13 @@
     <div class="container">
       <div class="row">
         <div class="col mb-5">
-          <h1 class="display-4">Registro de nova despesa</h1>
+          <h1 class="display-2">Registro de nova despesa</h1>
         </div>
       </div>
 
-      <div class="row mb-2">
+      <div class="row mb-4">
         <div class="col-md-2">
-          <select class="form-control" id="ano">
+          <select class="form-control" id="ano" style="border: 1px solid black;">
             <option value="">Ano</option>
             <option value="2018">2018</option>
             <option value="2019">2019</option>
@@ -65,7 +69,7 @@
         </div>
 
         <div class="col-md-2">
-          <select class="form-control" id="mes">
+          <select class="form-control" id="mes" style="border: 1px solid black;">
             <option value="">Mês</option>
             <option value="1">Janeiro</option>
             <option value="2">Fevereiro</option>
@@ -83,11 +87,11 @@
         </div>
         
         <div class="col-md-2">
-          <input type="text" class="form-control" placeholder="Dia" id="dia" />
+          <input type="text" class="form-control" placeholder="Dia" id="dia" style="border: 1px solid black;" />
         </div>
 
         <div class="col-md-6">
-          <select class="form-control" id="tipo">
+          <select class="form-control" id="tipo" style="border: 1px solid black;">
             <option value="">Tipo</option>
             <option value="1">Alimentação</option>
             <option value="2">Educação</option>
@@ -102,15 +106,15 @@
 
       <div class="row">
         <div class="col-md-8">
-          <input type="text" class="form-control" placeholder="Descrição" id="descricao" />
+          <input type="text" class="form-control" placeholder="Descrição" id="descricao" style="border: 1px solid black;" />
         </div>
 
         <div class="col-md-2">
-          <input type="text" class="form-control" placeholder="Valor" id="valor" />
+          <input type="text" class="form-control" placeholder="Valor" id="valor" style="border: 1px solid black;" />
         </div>
 
         <div class="col-md-2 d-flex justify-content-end">
-          <button type="button" class="btn btn-info" onclick="cadastrarDespesa()">
+          <button type="button" class="btn btn-warning" onclick="cadastrarDespesa()">
             <i class="fas fa-plus"></i>
           </button>
         </div>
@@ -135,6 +139,11 @@
       </div>
     </div>
 
+
+    
+        <div id="conteudo">
+          <img src="img/dinheiro2.png" alt="homem-com-notas-de-dinheiro">
+        </div>
   </body>	
 
 </html>
