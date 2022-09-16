@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 
@@ -7,11 +6,6 @@
 ![preview](/img/preview.png)
 
 Projeto de banco de dados para adicionar, verificar e excluir despesas.
-=======
-# ORÇAMENTO PESSOAL
-
-Projeto de banco de dados para adicionar, verificar e exluir despesas.
->>>>>>> 7fe0d11e6358bf685324bf945736a062e5cdb311
 
 
 ## 🛠️ Construído com
@@ -21,23 +15,17 @@ Projeto de banco de dados para adicionar, verificar e exluir despesas.
 * BOOTSTRAP
 * JAVASCRIPT
 
-<<<<<<< HEAD
 🔗 [Clique aqui para acessar](https://leonardo1942.github.io/orcamento_pessoal/)
-=======
->>>>>>> 7fe0d11e6358bf685324bf945736a062e5cdb311
 
 
 ## ✒️ Autores
 
 * **Leonardo Holanda** - *Projeto de estudos* 
 
-<<<<<<< HEAD
 ## 💛 Contato
 - https://www.linkedin.com/in/leonardo-holanda-16a654138/
 - (11)971800561
 
-=======
->>>>>>> 7fe0d11e6358bf685324bf945736a062e5cdb311
 ## 📄 Licença
 
 Este projeto está sob a licença MIT License
@@ -70,9 +58,6 @@ SOFTWARE.
 
 
 ---
-<<<<<<< HEAD
 
     
 
-=======
->>>>>>> 7fe0d11e6358bf685324bf945736a062e5cdb311
